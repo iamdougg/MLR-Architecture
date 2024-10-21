@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <title>MLR Arquitetura</title>
+</head>
+<body>
+    <!--header-->
+    <div>
+        <header id="header" class="header">
+            <img src="./assets/images/signature.gif" alt="assinatura da arquiteta" id="sign">
+            <nav id="nav">
+                <ul id="menu">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#footer">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!--projetos-->
+    <div id="projetos">
+        <div id="images" class="slide">
+            <img src="./assets/images/1.png" class="page" id="img1">
+            <img src="./assets/images/2.png" class="page" id="img2">
+            <img src="./assets/images/3.png" class="page" id="img3">
+            <img src="./assets/images/4.png" class="page" id="img4">
+            <img src="./assets/images/5.png" class="page" id="img5">
+        </div>
+    </div>
+    <!--sobre mim-->
+    <div id="about">
+        <div class="profile">
+            <img src="./assets/images/profile-pic.jpeg" alt="imagem de perfil" id="profilepic">
+            <h3 class="info">07 | 05 | 1999</h3>
+            <h1 class="info">Milena Larissa Rebechi</h1>
+            <h2 class="info">Arquiteta e Urbanista</h2>
+        </div>
+        <div class="text">
+            <p id="sobre-mim">
+            Apaixonada por arquitetura, design biofílico<br> e neuroarquitetura. Aprecio a ousadia de<br> materiais e revestimentos diferentes, assim<br> como a funcionalidade de bons projetos executivos.<br>
+            <br>
+            Já trabalhei em escritórios de arquitetura de<br> alto nível de detalhe no ramo da arquitetura<br> de interiores e agora estou em busca de<br> novas experiências para agregar na minha<br> vida profissional.<br>
+            <br>
+            Espero que possamos trabalhar juntos para<br> uma linda troca de ensinamentos e<br> aprendizados em busca da evolução.<br>
+            <br>
+            Já dizia Lina Bo Bardi: “Há um gosto de<br> vitória e encanto na condição de ser simples.<br> Não é preciso muito para ser muito.”
+            </p>
+        </div>
+    </div>
+    <!--insta-->
+    <!--Contato-->
+    <footer id="footer">
+        <div id="budget">
+            <h1>Solicite seu orçamento:</h1>
+            <form id="nav2">
+                <label for="name" class="label">Nome:</label>
+                <input type="text" placeholder="Qual o seu nome?" id="name" name="name">
+                <label for="mail" class="label">E-mail:</label>
+                <input type="email" id="emailbox" placeholder="ex.: mimiperigosa@gmail.com">
+                <label for="contato" class="label">Digite sua mensagem:</label>
+                <textarea name="motivo" id="motivo" rows="15"></textarea>
+                <button onclick="alert('Mensagem enviada com sucesso!')" id="send" class="btn">Enviar</button>
+            </form>
+        </div>
+        <div id="infos">
+            <a href="https://wa.me/5554999082540"><img src="./assets/images/zaplogo.png" alt="whatsapp" class="logos" id="zap"></a>
+            <a href="mailto:milenarebechi.arq@gmail.com"><img src="./assets/images/maillogo.png" alt="email" class="logos"></a>
+            <a href="https://www.linkedin.com/in/milenalrebechi"><img src="./assets/images/linkedinlogo.png" alt="linkedin" class="logos"></a>
+        </div>
+    </footer>
+    <footer id="rights">
+        <h3>&copy 2024 MLR Arquitetura. All rights reserved.</h3>
+    </footer>
+</body>
+</html>
